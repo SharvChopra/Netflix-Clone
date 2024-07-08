@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+}
+.homePage{
+    width: 100%;
+    height: 105vh;
+    background:url(images/Netflix\ Background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120vh;
+    position: absolute;
+}
+.homePage_navigation{
+    width: 100%;
+    height: 105vh;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+}
+.homePage_nav_logo{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    position: relative;
+    left: 110px;
+}
+.homePage_button{
+    position: absolute;
+    top: 50px;
+    right: 90px;
+}
+#dropdown{
+    padding: 0.5rem 0.9rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 0.7rem;
+}
+.homePage_signin{
+    padding: 0.5rem 0.9rem;
+    border-radius: 4px;
+    background-color: 	rgb(219,0,0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.homePage_content{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homePage_content_title{
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 0.8rem;
+}
+.homePage_content_line_one{
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: poppins;
+    margin-bottom: 1rem;
+}
+.homePage_content_line_two{
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: poppins;
+    font-weight: 400;
+}
+.homePage_content_input{
+    width: 45%;
+    margin-top: 1rem;
+}
+.content_input{
+    width: 60%;
+    padding: 0.9rem 1.5rem;
+    margin-right: 0.5rem;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.homePage_input_started{
+    width: 30%;
+    padding: 0.55rem 0.1rem;
+    background-color: rgb(219,0,0);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.homePage_input_started_title{
+    font-size: 1.2rem;
+    font-family: poppins;
+    font-weight: 600;
+}
+.line-one{
+    width: 100%;
+    height: 10px;
+    background-color:rgb(86,77,77) ;
+}
+.chevron{
+    width: 18px;
+    height: 18px;
+    color: #fff;
+}
+@media screen and (min-width:350px) and (max-width:1024px){
+    .homePage_nav_logo{
+        left: 20px;
+    }
+    .homePage_button{
+        right: 30px;
+    }
+    .homePage_content_title{
+        font-size: 1.5rem;
+        text-align:center;
+    }
+    .homePage_content_line_one{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .homePage_content_line_two{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .homePage_content_input{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_input{
+        width: 100%;
+    }
+    .homePage_input_started{
+        width: 60%;
+        margin-top: 0.5rem;
+    }
+}
