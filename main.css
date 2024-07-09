@@ -164,7 +164,7 @@ body{
     text-wrap: wrap;
 }
 .subcontent_one_text_title{
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 900;
     letter-spacing: 0.1rem;
     /* position: absolute;
@@ -190,4 +190,103 @@ body{
     position: relative;
     top: -10px;
     z-index: -1;
+}
+
+/* SUBCONTENT -2 */
+
+.subcontent-2{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    gap: 1rem;
+}
+.subcontent-2-display{
+    position: relative;
+    
+}
+.subcontent-2-img{
+    width: 430px;
+    height: 330px;
+    position: absolute;
+    left: -70px;
+    z-index: 14;
+}
+.subcontent-2-video{
+    width: 300px;
+    height: 240px;
+    padding-right:2rem;
+    z-index: -1;
+}
+.subcontent-2-text{
+    font-family: poppins;
+    color: #fff;
+    position: relative;
+    left: 3.5rem;
+}
+.subcontent-2-text-title{
+    font-size: 2.7rem;
+    font-weight: 900;  
+}
+.subcontent-2-content{
+    font-size:1.4rem;
+    font-weight: 400;
+}
+@media screen and (min-width:350px) and (max-width:640px){
+    .subcontent-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subcontent-2-text{
+        width: 83%;
+        height: 20vh;
+        position: absolute;
+        top: 40px;
+        text-align: center;
+
+    }
+    .subcontent-2-text-title{
+        font-size: 2rem; 
+    }
+    .subcontent-2-content{
+        font-size:1rem;
+    }
+    .subcontent-2-img{
+        width: 340px;
+        height: 230px;
+        left: -40px;
+    }
+    .subcontent-2-video{
+        width: 240px;
+        height: 190px;
+    }
+}
+@media screen and (min-width:640px) and (max-width:1024px){
+    .subcontent-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subcontent-2-text{
+        width: 80%;
+        height: 20vh;
+        position: absolute;
+        top: 20px;
+        left: 100px;
+        text-align: center;
+
+    }
+    .subcontent-2-text-title{
+        font-size: 2.5rem; 
+    }
+    .subcontent-2-content{
+        font-size:1.1rem;
+    }
+
 }
