@@ -290,3 +290,110 @@ body{
     }
 
 }
+/* SUBCONTENT -3 */
+
+.subcontent-3{
+    width: 100vw;
+    height: 90vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.subcontent-3-text{
+    width: 36%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    color: #fff;
+    position: relative;
+    top: 2rem;
+    left: 6.5rem;
+}
+.subcontent-3-text-title{
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+.subcontent-3-content{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.subcontent-3-display{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontent-3-img{
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+}
+@media screen and (min-width:350px) and (max-width:640px){
+    .subcontent-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .subcontent-3-text{
+        width: 50%;
+        position: relative;
+        top: 4rem;
+        left: 6.5rem;
+    }
+    .subcontent-3-text-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .subcontent-3-content{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .subcontent-3-display{
+        width: 100%;
+        height: 100%;
+    }
+    .subcontent-3-img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        position: relative;
+        /* top: -5rem; */
+        top: 1rem;
+    }
+}
+@media screen and (min-width:640px) and (max-width:1024px){
+    .subcontent-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .subcontent-3-text{
+        width: 80%;
+        position: relative;
+        top: 4rem;
+        left: 6.5rem;
+    }
+    .subcontent-3-text-title{
+        font-size: 2.4rem;
+    }
+    .subcontent-3-content{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .subcontent-3-display{
+        width: 100%;
+        height: 100%;
+    }
+    .subcontent-3-img{
+        width: 500px;
+        height: 600px;
+        object-fit: contain;
+    }
+}
