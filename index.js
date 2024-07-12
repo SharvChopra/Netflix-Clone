@@ -17,6 +17,9 @@ const quesDisplay_6 = document.querySelector('.question-section-6-content');
 const questionSection = document.querySelector('.question-section-form')
 const inputLabel = document.querySelector('.content-label');
 
+const SignInput = document.querySelector('.Sign-in-input');
+
+const labelInput = document.querySelector('.Sign-in');
 const conditionBtn1 = function(){
     if(plusBtn_1.classList.contains('section-anim')){
         plusBtn_1.classList.remove('section-anim');
@@ -105,3 +108,7 @@ plusBtn_4.addEventListener('click',conditionBtn4);
 plusBtn_5.addEventListener('click',conditionBtn5);
 plusBtn_6.addEventListener('click',conditionBtn6);
 
+// const signHide = function(){
+//     labelInput.classList.add('sign-hide')
+// }
+// SignInput.addEventListener('click',signHide);
