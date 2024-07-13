@@ -835,7 +835,7 @@ body{
 }
 .SignUp-form{
     width: 430px;
-    height: 570px;
+    height: 580px;
     position: absolute;
     top: 8rem;
     left: 35%;
@@ -859,6 +859,7 @@ body{
     border: none;
     border-radius: 5px;
     color: #fff;
+    margin-bottom: 1rem;
 }
 .sign-in{
     position: relative;
