@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <main class="homePage">
@@ -34,14 +35,14 @@
                         </p>
                         <div class="homePage_content_input">
                             <input type="email" placeholder="Email address" class="content_input" required>
-                            <button class="homePage_input_started" onclick="window.location.href='SignUp.html'"><span class="homePage_input_started_title">Get Started</span>
+                            <button class="homePage_input_started"><span class="homePage_input_started_title">Get Started</span>
                                 <img src="images/chevron (1).png" alt="right chevron" class="chevron">
                             </button>
                         </div>
                     </div>
         </div>
     <section class="subcontent_one">
-        <div class="subcontent_one_text">
+        <div class="subcontent_one_text" data-aos="fade-right">
             <h1 class="subcontent_one_text_title">
                 Enjoy on your TV
             </h1>
@@ -49,22 +50,22 @@
                 Watch on smart TVs, PlayStation , Xbox, Chromecast, Apple TV, Blu-ray Players and more.
             </p>
         </div>
-        <div class="subcontent_one_display">
+        <div class="subcontent_one_display" data-aos="fade-left">
             <img src="images/netflix_tv.png" alt="image" class="image_one">
-            <video width="320px" height="238px" controls autoplay loop>
+            <video width="320px" height="238px" autoplay loop>
                 <source src="videos/video-tv-in-0819.m4v">
             </video>
         </div>
     </section>
     <div class="line-one"></div>
     <section class="subcontent-2">
-        <div class="subcontent-2-display">
+        <div class="subcontent-2-display" data-aos="fade-right">
             <img src="images/netflix_device_pile_up.png" alt="Netflix BoxShot" class="subcontent-2-img">
             <video controls autoplay loop class="subcontent-2-video">
                 <source src="videos/video-devices.m4v" type="video/mp4">
-            </video>
+            </video> 
         </div>
-        <div class="subcontent-2-text">
+        <div class="subcontent-2-text" data-aos="fade-left">
             <h1 class="subcontent-2-text-title">
                 Watch everywhere
             </h1>
@@ -75,19 +76,19 @@
     </section>
     <div class="line-one"></div>
     <section class="subcontent-3">
-        <div class="subcontent-3-text">
+        <div class="subcontent-3-text" data-aos="fade-right">
             <h1 class="subcontent-3-text-title">Create profiles for kids</h1>
             <p class="subcontent-3-content">
                 Send children on adventures with their favourite characters in a space made just for them—free with your membership.
             </p>
         </div>
-        <div class="subcontent-3-display">
+        <div class="subcontent-3-display" data-aos="fade-left">
             <img src="images/netflix_children.png" alt="Netflix Children" class="subcontent-3-img">
         </div>
     </section>
     <div class="line-one"></div>
     <section class="subcontent-4">
-        <div class="subcontent-4-display">
+        <div class="subcontent-4-display" data-aos="fade-right">
             <img src="images/Netflix_mobile.jpg" alt="Netflix Mobile" class="subcontent-4-img">
             <div class="subcontent-4-box">
                 <div class="subcontent-4-box-display">
@@ -102,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="subcontent-4-text">
+        <div class="subcontent-4-text" data-aos="fade-left">
             <h1 class="subcontent-4-text-title">
                 Download your shows to watch offline
             </h1>
@@ -178,13 +179,14 @@
                 Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see.
             </div>
         </div>
-        <div class="question-section-form">
+        <div class="question-section-form" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
             <h3 class="question-section-form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
             <div class="homePage_content_input_1">
                 <div class="subcontent-4-form">
                     <input type="email" class="content_input_1" required>
                     <label for="Email Address" class="content-label">Email Address</label>
-                <button class="homePage_input_started_1" onclick="window.location.href='SignUp.html'"><span class="homePage_input_started_title">Get Started</span>
+                <button class="homePage_input_started_1"><span class="homePage_input_started_title">Get Started</span>
                     <img src="images/chevron (1).png" alt="right chevron" class="chevron">
                 </button>
             </div>
@@ -275,5 +277,9 @@
     <div class="line-one footer-one"></div>
     </main>
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
